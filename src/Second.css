@@ -1,0 +1,51 @@
+.second{
+    background-image: url("../public/mars.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    height: 100VH;
+
+    align-items: flex-start;
+    
+    padding: 20px;
+    text-align: left;
+
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 54px 55px, rgba(0, 0, 0, 0.42)
+     0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 44px 6px, rgba(0, 0, 0, 0.17)
+    0px 12px 13px, rgba(0, 0, 0, 0.19) 0px 44px 5px;
+    
+}
+.top{
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 54px 55px, rgba(0, 0, 0, 0.42)
+    0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 44px 6px, rgba(0, 0, 0, 0.17)
+   0px 12px 13px, rgba(0, 0, 0, 0.19) 0px 44px 5px;
+}
+.top h1{
+    align-self: flex-start;
+    text-align: left;
+    
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    margin-top: 100px;
+    /* border: 1px solid white; */
+    align-self: center;
+    
+    
+    width: 30vw;
+}
+.left h2{
+    text-align: left;
+}
+.left p{
+    align-items: flex-start;
+    text-align: left;
+}
+.right{
+    border: 1px solid white;
+   
+    width: 30vw;
+}

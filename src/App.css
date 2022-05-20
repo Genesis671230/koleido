@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  background: radial-gradient( 67.06% 69.44% at 32.05% 69.74%, #410d51 34.69%, #1b102e 100% );
+  /* height: 100vh; */
+  width: 100vw;
+  
+ 
+  
+}
+
+.App-header {
+  z-index: 55;
+  padding-top: 10px;
+  padding-right: 20px;
+  /* background: url("../public/mars.png"); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  justify-content: center;
+  font-size: 50px;
+  color: wheat;
+
+}
+.ConnectWallet{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  justify-self: flex-end;
+  
+}
+.ConnectWallet h3{
+  color: white;
+  margin-left: 10px;
+  border: 1px solid purple;
+  padding: 10px ;
+  border-radius: 22px;
+  font-size: 18px;
+}
+.ConnectWallet button{
+  cursor: pointer;
+  padding: 10px;
+  color: wheat;
+  border: none;
+  background: transparent;
+  border: 1px solid rgb(240, 220, 240);
+  transition: ease-in 0.5s;
+}
+.ConnectWallet button:hover{
+  transform: scale(0.8);
+}
+.ConnectWallet button p{
+  /* border: 2px  solid purple; */
+  margin: 0;
+  
+  
+  color: white;
+  padding: 4px 8px;
+
+}
+.buttons button{
+  margin: 0 0px;
+}
+.mars{
+  display: flex;
+}
+.mars .marsimage {
+  
+  margin-right: -300px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.main .marsimage:hover{
+  transform: scale(1.06);
+}
+.main .marsimage img{
+  width: 20vw;
+  height: auto;
+}
+.main{
+  height: 100vh;
+  background-image: url("../public/17814.jpeg");
+  display: flex;
+  
+  padding: 0 30px;
+  place-items: contain;
+  
+  background-size: 180vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .imgheading{
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.imgheading .text{
+    background: radial-gradient( 67.06% 69.44% at 32.05% 69.74%, #370b44 34.69%, #1f1236 100% );
+  padding: 20px;
+  border-radius: 12px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  box-shadow:rgba(0, 00, 0, 0.82) -100px 10px 060px; 
+}
+.imgheading .text p{
+  text-align: left;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+.imgheading .text h2{
+  text-align: left;
+  
+}
+.main img{
+  height: 40vh;
+  width: auto;
+  box-shadow:
+   /* rgba(0, 0, 0, 0.45) 0px 54px 55px, */
+             /* rgba(0, 0, 0, 0.42) 0px 0px 30px, */
+              rgba(0, 00, 0, 0.52) 100px 100px 0100px;
+               /* rgba(0, 0, 0, 0.17) 0px 12px 13px,rgba(0, 0, 0, 0.19) 0px 44px 5px; */
+
+  border-radius: 10px 10px;
+  
+  
+}
+.main  button{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 8vw;
+  border: 2px  solid purple;
+  
+  
+  
+  
+  
+  color: white;
+  background: transparent;
+  transition: ease-in 0.3s;
+
+}
+.main {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: end;
+  height: 85vh;
+  cursor: auto;
+}
+.main button:hover{
+  background: linear-gradient();
+  transform: scale(1.05);
+}
+.btn-opensea button{
+  margin-right: 15px;
+  width: 20vw;
+  background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+  padding: 17px;
+}
+.btn-discord button{
+  width: 20vw;
+  background-image: linear-gradient(to right, #8b105cbd 0%, #61045F  51%, #85155a  100%);
+  padding: 17px;
+}

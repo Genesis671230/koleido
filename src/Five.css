@@ -1,0 +1,64 @@
+.five{
+    background-color: rgb(16, 5, 22);
+    display: flex;
+    justify-content: space-between;
+    
+    height: 60vh;
+    align-items: center;
+    
+    padding: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 54px 55px, rgba(0, 0, 0, 0.42)
+     0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 44px 6px, rgba(0, 0, 0, 0.17)
+    0px 12px 13px, rgba(0, 0, 0, 0.19) 0px 44px 5px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list-img{
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.list-img:hover{
+    transform: scale(1.09);
+}
+.list-img img{
+    
+    height: 300px;
+    width: auto;
+}
+
+/* .list .list-first:hover{
+    transform: scale(1.09);
+}
+
+.list .list-first{
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.list .list-second{
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.list .list-second:hover{
+    transform: scale(1.09);
+}
+.list .list-third{
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+} 
+.list .list-third:hover{
+    transform: scale(1.09);
+}
+.list .list-first img{
+    height: 50vh;
+}
+.list .list-second img{
+    height: 50vh;
+}
+.list .list-third img{
+    height: 50vh;
+} */

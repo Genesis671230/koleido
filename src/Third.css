@@ -1,0 +1,46 @@
+.third{
+    
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("../public/mars.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.third-content{
+    
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    
+    /* padding: 20px; */
+    
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 54px 55px, rgba(0, 0, 0, 0.42)
+     0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 44px 6px, rgba(0, 0, 0, 0.17)
+    0px 12px 13px, rgba(0, 0, 0, 0.19) 0px 44px 5px;
+}
+.third-left{
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 54px 55px, rgba(0, 0, 0, 0.42)
+    0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 44px 6px, rgba(0, 0, 0, 0.17)
+    0px 12px 13px, rgba(0, 0, 0, 0.19) 0px 44px 5px; */
+    margin-left: 20px;
+    padding:0 30px;
+    
+    
+   
+    
+}
+.third-left h2{
+    text-align: left;
+}
+.third-left img{
+    
+    width: 50vh;
+    height: auto;
+}
